@@ -1,0 +1,53 @@
+*{
+    background-color: lightcyan;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    font-family: Georgia;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+    font-family: Georgia;
+}
+
+h3 {
+    color: green;
+    text-align: justify;
+    font-family: Georgia;
+}
+
+.p{
+    line-height: 20px;
+}
+
+#percent{
+    color: lightcoral
+}
+
+#left {
+    float:left;
+    padding: 0 10px 10px 0;
+    height: 200px;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#like {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul{
+    text-align: left;
+}
