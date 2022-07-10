@@ -1,0 +1,152 @@
+body, html{
+    background-color: aqua;
+    margin: 20px;
+}
+
+header {
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+
+nav {
+    position: fixed;
+    background-color: beige;
+    background-position: center;
+    text-align: center;
+    padding: 5px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    background-color: bisque;
+    text-align: center;
+    text-decoration: none;
+    height: 40px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav a{
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    margin: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+
+}
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+    color: maroon;
+    font-family:'crimson pro';
+    font-size: 35px;
+    font-weight: bolder;
+    margin: 40px;
+}
+
+#oldRanch{    
+    height: 400px;
+    width: 500px;
+    margin: 40px 40px 40px 60px;
+}
+
+#wagon{    
+    height: 400px;
+    width: 500px;
+    margin: 40px 40px 40px 60px;
+}
+
+.box-model{
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: black;
+    height: 500px;
+    width: 70%;
+    display: block;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+}
+
+#chore{
+    background-color: honeydew;
+    float: left;
+    height: 295px;
+    width: 300px;
+    border-style: solid;
+    margin: 10px;
+}
+
+#work {
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#herd{
+    text-align: right;
+    height: 300px;
+    width: 50%;
+    margin: 10px;
+    
+}
+
+table {
+    background-color: blue;
+    height: 230px;
+    width: 800px;
+    border-style: solid;
+    border-color: grey;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+}
+
+th{
+    background-color: aliceblue;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+td{
+    background-color: aliceblue;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+#info{
+    margin-top: 60px;
+    text-align: center;
+    font-family: Arial;
+}
+
+.about{
+    background-color: white;
+    border-style: solid;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
