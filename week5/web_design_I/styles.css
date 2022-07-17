@@ -1,0 +1,85 @@
+[class*="box"] {
+    width: 100%;
+  }
+
+#head{ 
+    grid-area: header;
+    background-color: #F5C6D6;
+}
+#main{ 
+    grid-area: main;
+    background-color: #EE2E84;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+}
+#box{ 
+    grid-area: box;
+    background-color: #EE2E84;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+}
+#box1{ 
+    grid-area: box1;
+    background-color: #EE2E84;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+}
+#box2{ 
+    grid-area: box2;
+    background-color: #EE2E84;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+}
+#box3{ 
+    grid-area: box3;
+    background-color: #85CFD8;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+}
+#box4{ 
+    grid-area: box4;
+    background-color: #85CFD8;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+}
+#box5{ 
+    grid-area: box5;
+    background-color: #8DC63F;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+}
+#box6{ 
+    grid-area: box6;
+    background-color: #E76E34;
+    border-color: #FFFFFF;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+@media  only screen and (min-width: 768px) {
+
+    .grid-container{
+        display: grid;
+        grid-template-areas: 
+        'header header header header'
+        'main box box1 box2'
+        'box3 box3 box4 box4'
+        'box5 box5 box5 box6';
+            gap: 2px;
+            padding: 10px;
+            background-color: #FFFFFF;
+    }
+}
