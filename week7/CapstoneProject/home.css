@@ -1,0 +1,97 @@
+body{
+    background-color: tan;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(6, auto);
+    grid-gap: 1px;
+}
+
+header{
+    grid-area: head;
+    font-size: 60px;
+    font-family: Arial;
+    text-shadow: black 2px 0 10px;
+    text-align: center;
+    color: mediumseagreen;
+    grid-column: 1 / 4;
+    grid-row: 1/2;
+}
+
+#navbar{
+    grid-area: navbar;
+    grid-column: 1 /4;
+    grid-row: 2 / 3;
+    width: auto;
+    border: 2px solid black;
+    display: flexbox;
+    flex-direction: row;
+}
+
+nav a{
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+.flex-container > a{
+    padding: 5px;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;    
+}
+
+#welcome{
+    width: auto;
+    background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    grid-area: welcome;
+    grid-column: 1 / 4;
+    grid-row: 3 / 5;
+}
+
+.ranch{
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 150px;
+    width: 150px;
+    grid-area: ranch;
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+}
+
+.list{
+    height: 100px;
+    width: fit-content;
+    text-decoration: none;
+    grid-row: 5 / 6;
+}
+
+.list:hover{
+    height: 250px;
+    width: 500px;
+    background-color: whitesmoke;
+    font-size: 30px;
+    color: indigo;
+    transition: ease-in-out .2s;
+}
+
+#footer{
+    grid-area: footer;
+    grid-column: 1 / 4;
+    grid-row: 6 / 7;
+}

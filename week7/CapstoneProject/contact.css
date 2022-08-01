@@ -1,0 +1,50 @@
+body, html{
+    background-color: cadetblue;
+}
+
+header{
+    font-size: 60px;
+    font-family: Arial;
+    text-shadow: black 2px 0 10px;
+    text-align: center;
+    color: firebrick;
+}
+
+#navbar{
+    width: auto;
+    border: 2px solid black;
+    display: flexbox;
+    flex-direction: row;
+}
+
+nav a{
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+.flex-container > a{
+    padding: 5px;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;    
+}
+.contact{
+    font-size: 25px;
+    font-family: Arial;
+    text-align: center;
+    color: black;
+}
+#name{
+    text-decoration: underline;
+}

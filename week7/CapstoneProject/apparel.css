@@ -1,0 +1,459 @@
+body{
+    background-color: darkkhaki;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(8, auto);
+    grid-gap: 1px;
+}
+
+header{
+    grid-area: head;
+    font-size: 60px;
+    font-family: Arial;
+    text-shadow: black 2px 0 10px;
+    text-align: center;
+    color: mediumseagreen;
+    grid-column: 1 / 4;
+    grid-row: 1/2;
+}
+
+#navbar{
+    grid-area: navbar;
+    grid-column: 1 /4;
+    grid-row: 2 / 3;
+    width: auto;
+    border: 2px solid black;
+    display: flexbox;
+    flex-direction: row;
+}
+
+nav a{
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+.flex-container > a{
+    padding: 5px;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;    
+}
+.box-model{
+    padding: 10px;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 150px;
+    width: 150px;
+}
+input{
+    width: 45px;
+}
+h2{
+    color: green;
+    text-align: center;
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    body{
+        background-color: blanchedalmond;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: repeat(8, auto);
+        grid-gap: 1px;
+    }
+    
+    header{
+        grid-area: head;
+        font-size: 60px;
+        font-family: Arial;
+        text-shadow: black 2px 0 10px;
+        text-align: center;
+        color: midnightblue;
+        grid-column: 1 / 5;
+        grid-row: 1/2;
+    }
+    
+    #navbar{
+        grid-area: navbar;
+        grid-column: 1 /5;
+        grid-row: 2 / 3;
+        width: auto;
+        border: 2px solid black;
+        display: flexbox;
+        flex-direction: row;
+    }
+    
+    nav a{
+        color: blue;
+        text-decoration: none;
+        text-align: center;
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        justify-content: space-evenly;
+        background-color: gray;
+    }
+    .flex-container > a{
+        padding: 5px;
+        justify-content: center;
+        display: inline-block;
+        text-align: center;    
+    }
+    .box-model{
+        padding: 10px;
+        height: 150px;
+        width: 150px;
+    }
+    input{
+        width: 45px;
+    }
+    h2{
+        background-color: burlywood;
+        color: green;
+        text-align: center;
+    }
+    .ballcap{
+        background-color: aliceblue;
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+  
+    }
+    .cowboyhat{
+        background-color: aliceblue;
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+  
+    }
+    .tShirt{
+        background-color: aliceblue;
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+  
+    }
+    .buttonUp{
+        background-color: aliceblue;
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+  
+    }
+    .pants{
+        background-color: aliceblue;
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+  
+    }
+    #barb{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #mesh{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #grey{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #brown{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #black{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #solid{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #palm{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #straw{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+
+    #buck{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #flag{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #cinchShirt{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #rodeo{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #pearl{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #flannel{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #blueShirt{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #plaid{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #greyShirt{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #ariatPants{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #cinchPants{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #wranglerPants{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 900px){
+    body{
+        background-color: mintcream;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+        grid-template-rows: repeat(8, auto);
+        grid-gap: 1px;
+    }
+    
+    header{
+        grid-area: head;
+        font-size: 60px;
+        font-family: Arial;
+        text-shadow: black 2px 0 10px;
+        text-align: center;
+        color: midnightblue;
+        grid-column: 1 / 7;
+        grid-row: 1 / 2;
+    }
+    
+    #navbar{
+        grid-area: navbar;
+        grid-column: 1 / 7;
+        grid-row: 2 / 3;
+        width: auto;
+        border: 2px solid black;
+        display: flexbox;
+        flex-direction: row;
+    }
+    
+    nav a{
+        color: blue;
+        text-decoration: none;
+        text-align: center;
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        justify-content: space-evenly;
+        background-color: gray;
+    }
+    .flex-container > a{
+        padding: 5px;
+        justify-content: center;
+        display: inline-block;
+        text-align: center;    
+    }
+    .box-model{
+        height: 150px;
+        width: 150px;
+    }
+    input{
+        width: 45px;
+    }
+    h2{
+        background-color: burlywood;
+        color: green;
+        text-align: center;
+    }
+    .ballcap{
+        background-color: aliceblue;
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+  
+    }
+    .cowboyhat{
+        background-color: aliceblue;
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+  
+    }
+    .tShirt{
+        background-color: aliceblue;
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+  
+    }
+    .buttonUp{
+        background-color: aliceblue;
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+  
+    }
+    .pants{
+        background-color: aliceblue;
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+  
+    }
+    #barb{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #mesh{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #grey{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #brown{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #black{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #solid{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #palm{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #straw{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+
+    #buck{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #flag{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #cinchShirt{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #rodeo{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #pearl{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #flannel{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #blueShirt{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #plaid{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #greyShirt{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #ariatPants{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #cinchPants{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+    #wranglerPants{
+        justify-content: center;
+        height: 200px;
+        width: 350px;
+    }
+}

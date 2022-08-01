@@ -1,0 +1,443 @@
+body{
+    background-color: indianred;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(25, auto);
+    grid-gap: 1px;
+}
+
+header{
+    grid-area: head;
+    font-size: 60px;
+    font-family: 'Signika Negative', sans-serif;
+    text-shadow: black 4px 0 15px;
+    text-align: center;
+    color: mediumseagreen;
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+}
+
+#navbar{
+    grid-area: navbar;
+    grid-column: 1 /4;
+    grid-row: 2 / 3;
+    width: auto;
+    border: 2px solid black;
+    display: flexbox;
+    flex-direction: row;
+}
+
+nav a{
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+.flex-container > a{
+    padding: 5px;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;    
+}
+.box-model{
+    padding: 10px;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    height: 150px;
+    width: 150px;
+}
+input{
+    width: 45px;
+}
+h2{
+    background-color: coral;
+    color: darkgreen;
+    text-align: center;
+    grid-column: 1 / 4;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px){
+    body{
+        background-color: indianred;
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-template-rows: repeat(15, auto);
+        grid-gap: 1px;
+    }
+    
+    header{
+        grid-area: head;
+        font-size: 60px;
+        font-family: 'Signika Negative', sans-serif;
+        text-shadow: black 4px 0 15px;
+        text-align: center;
+        color: mediumseagreen;
+        grid-column: 1 / 6;
+        grid-row: 1 / 2;
+    }
+    
+    #navbar{
+        grid-area: navbar;
+        grid-column: 1 /6;
+        grid-row: 2 / 3;
+        width: auto;
+        border: 2px solid black;
+        display: flexbox;
+        flex-direction: row;
+    }
+    
+    nav a{
+        color: blue;
+        text-decoration: none;
+        text-align: center;
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        justify-content: space-evenly;
+        background-color: gray;
+    }
+    .flex-container > a{
+        padding: 5px;
+        justify-content: center;
+        display: inline-block;
+        text-align: center;    
+    }
+    .box-model{
+        padding: 10px;
+        display: block;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 150px;
+        width: 150px;
+    }
+    h2{
+        color: darkgreen;
+        text-align: center;
+        background-color: coral;
+        grid-column: 1 / 6;
+    }
+    input{
+        width: 45px;
+    }
+    .ropes{
+        background-color: rgb(34, 120, 196);
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+    }
+    .saddle{
+        background-color: rgb(40, 110, 172);
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+    }
+    .chap{
+        background-color: rgb(13, 129, 231);
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+    }
+    .spur{
+        background-color: rgb(113, 174, 228);
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+    }
+    #redRope{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(34, 120, 196);
+    }
+    #blueRope{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(34, 120, 196);
+    }
+    #greenRope{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(34, 120, 196);
+    }
+    #bullRope{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(34, 120, 196);
+    }
+    #big{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(40, 110, 172);
+    }
+    #tan{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(40, 110, 172);
+    }
+    #lightTan{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(40, 110, 172);
+    }
+    #western{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(40, 110, 172);
+    }
+    #blackChink{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(13, 129, 231);
+    }
+    #brownChink{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(13, 129, 231);
+    }
+    #redChap{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(13, 129, 231);
+    }
+    #blueChap{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(13, 129, 231);
+    }
+    #bullSpur{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgbrgb(113, 174, 228);
+    }
+    #broncSpur{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgbrgb(113, 174, 228);
+    }
+    #flower{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(113, 174, 228);
+    }
+    #arrow{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(113, 174, 228);
+    }
+}
+
+@media only screen and (min-width: 900px){
+    body{
+        background-color: indianred;
+    }
+    
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        grid-template-rows: repeat(15, auto);
+        grid-gap: 1px;
+    }
+    
+    header{
+        grid-area: head;
+        font-size: 60px;
+        font-family: 'Signika Negative', sans-serif;
+        text-shadow: black 4px 0 15px;
+        text-align: center;
+        color: mediumseagreen;
+        grid-column: 1 / 6;
+        grid-row: 1 / 2;
+    }
+    
+    #navbar{
+        grid-area: navbar;
+        grid-column: 1 /6;
+        grid-row: 2 / 3;
+        width: auto;
+        border: 2px solid black;
+        display: flexbox;
+        flex-direction: row;
+    }
+    
+    nav a{
+        color: blue;
+        text-decoration: none;
+        text-align: center;
+    }
+    nav a:hover{
+        text-decoration: underline;
+    }
+    
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        justify-content: space-evenly;
+        background-color: gray;
+    }
+    .flex-container > a{
+        padding: 5px;
+        justify-content: center;
+        display: inline-block;
+        text-align: center;    
+    }
+    .box-model{
+        padding: 10px;
+        display: block;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 150px;
+        width: 150px;
+    }
+    h2{
+        color: darkgreen;
+        text-align: center;
+        background-color: coral;
+        grid-column: 1 / 6;
+    }
+    input{
+        width: 45px;
+    }
+    .ropes{
+        background-color: rgb(34, 120, 196);
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+    }
+    .saddle{
+        background-color: rgb(40, 110, 172);
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+    }
+    .chap{
+        background-color: rgb(13, 129, 231);
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+    }
+    .spur{
+        background-color: rgb(113, 174, 228);
+        display: flex; justify-content: space-evenly; flex-wrap:wrap; flex-direction: row;
+    }
+    #redRope{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(34, 120, 196);
+    }
+    #blueRope{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(34, 120, 196);
+    }
+    #greenRope{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(34, 120, 196);
+    }
+    #bullRope{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(34, 120, 196);
+    }
+    #big{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(40, 110, 172);
+    }
+    #tan{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(40, 110, 172);
+    }
+    #lightTan{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(40, 110, 172);
+    }
+    #western{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(40, 110, 172);
+    }
+    #blackChink{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(13, 129, 231);
+    }
+    #brownChink{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(13, 129, 231);
+    }
+    #redChap{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(13, 129, 231);
+    }
+    #blueChap{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(13, 129, 231);
+    }
+    #bullSpur{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgbrgb(113, 174, 228);
+    }
+    #broncSpur{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgbrgb(113, 174, 228);
+    }
+    #flower{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(113, 174, 228);
+    }
+    #arrow{
+        justify-content: center;
+        height: 250px;
+        width: 300px;
+        border: 2px solid  rgb(113, 174, 228);
+    }  
+}
